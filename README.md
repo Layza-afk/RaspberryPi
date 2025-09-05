@@ -26,20 +26,24 @@ Abaixo estará listado os itens referentes a execução do proejto físico:
 ## CONFIGURANDO AMBIENTE
 Para que possamos trabalhar com a captura do audio, iremos usar duas bibliotecas: PyAudio e speech_recognition. Para usa-las, precisamos instalar ambas no nosso ambiente.
 
-Para a speech_recognition se usa no terminal:
-> pip install SpeechRecognition
-e para verificar a instalação:
-> pip show SpeechRecognition
-
-Para o PyAudio:
-> pip install pyaudio
-e verificar sua instalação e versão:
-> pip show pyaudio
-
+Para a speech_recognition e o Pyaudio respectivamente:
+```Bash
+pip install SpeechRecognition
+```
+```Bash
+pip install pyaudio
+```
+Verificar e instalação:
+```Bash
+pip show SpeechRecognition
+```
+```Bash
+pip show pyaudio
+```
 ## ORGANIZAÇÃO DOS ARQUIVOS
 
 > ...
 
 ## REFERÊNCIAS
-+ [Carlos. Reconhecimento de voz com Python (Speech-to-text) no jarviz](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
++ [Reconhecimento de voz com Python (Speech-to-text) no jarviz](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
 + 
