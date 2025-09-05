@@ -23,13 +23,23 @@ Abaixo estará listado os itens referentes a execução do proejto físico:
 |Relé (1 a 5 canais)    |Controlará as lâmpadas, suportando 250v    |
 |ProtoBoard             |                  -                        |
 
-Organização da pasta:
+## CONFIGURANDO AMBIENTE
+Para que possamos trabalhar com a captura do audio, iremos usar duas bibliotecas: PyAudio e speech_recognition. Para usa-las, precisamos instalar ambas no nosso ambiente.
 
-|- Confi
-|   |- Audio.py
-|   |- GPIO.py
-|- Main.py
+Para a speech_recognition se usa no terminal:
+> pip install SpeechRecognition
+e para verificar a instalação:
+> pip show SpeechRecognition
 
-### REFERÊNCIAS
-+ [Carlos. Reconhecimento de voz com Python (Speech-to-text) no jarviz, ](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
+Para o PyAudio:
+> pip install pyaudio
+e verificar sua instalação e versão:
+> pip show pyaudio
+
+## ORGANIZAÇÃO DOS ARQUIVOS
+
+> ...
+
+## REFERÊNCIAS
++ [Carlos. Reconhecimento de voz com Python (Speech-to-text) no jarviz](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
 + 

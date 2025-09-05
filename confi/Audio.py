@@ -11,7 +11,7 @@ def ouvir_microfone():
     
     with sr.Microphone() as source:
         print("Raspberry pi: apto para ouvir...");
-        r.adjust_for_ambient_noise(source, duration=0.8);
+        r.adjust_for_ambient_noise(source, duration=1.0);
         audio = r.listen(source, timeout=5);
     try:
         comando = r.recognize_google(audio, language="pt-BR");
