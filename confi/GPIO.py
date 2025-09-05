@@ -1,3 +1,9 @@
-@autor: Layza Vitoria
-@since: 00-09-2025
-@version: 0.0.1
+import RPi.GPIO as GPIO; # biblit5eca do raspberry pi que cuida dos pinos
+import confi.Audio as ouvir_microfone;
+
+class GPIO:
+    def __init__(self):
+        pass
+
+    def setup(self):
+        pass

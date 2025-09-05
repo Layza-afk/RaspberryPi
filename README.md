@@ -30,4 +30,6 @@ Organização da pasta:
 |   |- GPIO.py
 |- Main.py
 
-###
+### REFERÊNCIAS
++ [Carlos. Reconhecimento de voz com Python (Speech-to-text) no jarviz, ](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
++ 
