@@ -3,12 +3,14 @@
 # Since: 04-09-2025
 # Version: 0.0.1~
 
-from confi.Audio import ouvir_microfone
+from confi.Audio import ouvir_microfone;
+from confi.GPIO import setup;
 
 class Main:
     def __init__(self):
-        print("Iniciando o sistema...")
-        ouvir_microfone()
+        while True:
+            print("Iniciando o sistema...");
+            setup(ouvir_microfone());
 
 if __name__ == "__main__":
     Main()

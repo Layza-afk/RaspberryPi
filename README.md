@@ -44,6 +44,8 @@ pip show pyaudio
 
 > ...
 
+## LÓGICA 
+
 ## REFERÊNCIAS
 + [Reconhecimento de voz com Python (Speech-to-text) no jarviz](https://www.dio.me/articles/reconhecimento-de-voz-com-python-speech-to-text-no-jarvis-3387c1aa2c31)
 + 
