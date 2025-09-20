@@ -8,8 +8,9 @@ from confi.GPIO import setup;
 
 class Main:
     def __init__(self):
+        print("Iniciando o sistema...");
         while True:
-            print("Iniciando o sistema...");
+            print("Fale: ");
             setup(ouvir_microfone());
 
 if __name__ == "__main__":

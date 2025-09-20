@@ -51,7 +51,7 @@ Com as dependencias instalada, precisamos também configurar e instalar um siste
 Há duas formas de usarmos o nosso Raspberry pi. Uma pelo terminal do nosso proprio computador, usando SSH e a outra colocando um teclado, monitor e mouse no raspberry e usa-lo como um computador
 **ATENÇÃO:** em versões mais antigas do RaspBerry, é um pouco desconfortavel trabalhar diretamente nele.
 
-1. Primerio Método - Via SSH
+#### Primerio Método - Via SSH
 
 ## ORGANIZAÇÃO DOS ARQUIVOS
 
